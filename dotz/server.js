@@ -1,6 +1,6 @@
 'use strict';
 
-var dbClient = require('./src/repo/dbClient');
+var dbClient = require('./src/backend/repo/dbClient');
 var cookieParser = require('cookie-parser');
 var express = require('express');
 var path = require('path');
@@ -44,7 +44,7 @@ function startWebServer() {
   // Set up Routes for the application
   require('./src/routes/routes.js')(app);
 
-  
+
 
   server.listen(port);
   console.info('Server is up and Running at Port : ' + port);
