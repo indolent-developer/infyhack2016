@@ -1,0 +1,80 @@
+{
+  "name": "Dotz",
+  "version": "0.9.0",
+  "description": "Your personal buddy.",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils",
+      "<rootDir>/node_modules/fbjs"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "author": "N2K",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async": "^1.5.0",
+    "babel": "^6.3.13",
+    "babelify": "^7.2.0",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "cassandra-driver": "^3.0.1",
+    "cookie-parser": "^1.4.0",
+    "flux": "^2.0.3",
+    "jquery": "^2.1.4",
+    "node-jsx": "^0.13.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7"
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2",
+    "browserify": "^11.0.1",
+    "chalk": "^1.1.1",
+    "cson": "^3.0.2",
+    "deasync": "^0.1.4",
+    "del": "^2.2.0",
+    "ejs": "^2.3.4",
+    "eslint-plugin-react": "^3.11.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-duration": "0.0.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-if": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
+    "winston": "^2.1.1",
+    "yargs": "^3.31.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navalarya/infyhack2016"
+  },
+  "private": "true"
+}
