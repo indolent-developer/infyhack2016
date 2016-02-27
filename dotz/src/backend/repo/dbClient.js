@@ -28,6 +28,7 @@ var CassandraClient = {
   },
 
   getDbClient : function () {
+    return {};
     'use strict';
     console.info('Fetching db connection...');
 

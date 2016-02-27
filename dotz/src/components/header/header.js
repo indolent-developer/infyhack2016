@@ -16,8 +16,8 @@
               <div className="container-fluid">
                   <Menu />
               </div>
-              <div className="headertitle">
-                <span>DOTZz</span>
+              <div>
+                <span className="DotDotHeaderTitle">DOTZz</span>
               </div>
             </div>
           </div>
