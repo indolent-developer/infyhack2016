@@ -84,6 +84,13 @@
       return pageRenders.renderLogin(req, res);
     });
 
+    app.route('/login').post(function (req, res) {
+    'use strict';
+
+      return res.redirect(301, '/home');
+    });
+
+
     app.route('/journal').get(function (req, res) {
     'use strict';
       return pageRenders.renderJournal(req, res);

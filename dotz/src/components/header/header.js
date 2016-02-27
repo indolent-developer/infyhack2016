@@ -9,6 +9,12 @@
       };
     },
     render() {
+
+      var divstyle = {
+        color: 'white',
+        "text-align": 'center',
+        "margin-top": '10px'
+      };
       return (
         <div className="row-fluid">
           <div className="navbar navbar-inverse">
@@ -16,8 +22,8 @@
               <div className="container-fluid">
                   <Menu />
               </div>
-              <div>
-                <span className="DotDotHeaderTitle">DOTZz</span>
+              <div style={divstyle}>
+                <span>DOTZz</span>
               </div>
             </div>
           </div>

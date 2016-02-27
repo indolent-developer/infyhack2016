@@ -9,12 +9,21 @@
     },
     render() {
       return (
-        <div ClassName="row">
-            <div ClassName="col-sm-4">
-                <span>Please enter your Login name:</span>
+        <form className="form-signin" action={'/login'} method="post">
+        <div className="row">
+            <div className="col-sm-4">
+                <span>Login name:</span>
                 <input type="text" value=""></input>
             </div>
+            <div className="col-sm-4">
+                <span>Password name:</span>
+                <input type="text" value=""></input>
+            </div>
+            <div>
+              <input type="submit" value="Login"></input>
+            </div>
         </div>
+        </form>
       );
     }
   });
