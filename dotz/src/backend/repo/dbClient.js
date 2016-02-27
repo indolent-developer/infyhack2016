@@ -1,6 +1,6 @@
 
 var cassandra = require('cassandra-driver');
-var Utils = require('../utils/serverUtils');
+var Utils = require('../../utils/serverUtils');
 
 var CassandraClient = {
 
