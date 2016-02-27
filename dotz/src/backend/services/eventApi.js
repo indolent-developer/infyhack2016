@@ -6,8 +6,6 @@
   //var Session = require('../session');
   //var Repo = require('../repo/userRepo');
   var Config = require('../../config/server-config.js');
-  var config = new Config();
-  
 
   var eventApi = function (logger) {
     this.logger = logger;
@@ -21,7 +19,7 @@
     };
 
     return {
-      constructor: userApi
+      constructor: eventApi
     };
   }());
 
