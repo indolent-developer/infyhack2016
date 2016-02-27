@@ -11,8 +11,9 @@
 
   var ClientApp = {
     render: function () {
-
-  };
+    //render
+    }
+    }
 
   module.exports = ClientApp;
 

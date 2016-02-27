@@ -44,11 +44,8 @@ var config = {
     dist: './dist',
     /*mainJs: './src/main.js',*/
     mainJs: [
-      './src/main.js',
-      './node_modules/jquery-knob/dist/jquery.knob.min.js',
-      './node_modules/blueimp-file-upload/js/vendor/jquery.ui.widget.js',
-      './node_modules/blueimp-file-upload/js/jquery.iframe-transport.js',
-      './node_modules/blueimp-file-upload/js/jquery.fileupload.js'
+      './src/main.js'//,
+      //'./node_modules/blueimp-file-upload/js/vendor/jquery.ui.widget.js',
       //'./lib/circle-progress.js'
 
     ],
@@ -93,7 +90,7 @@ function bundle(bundler) {
       message: 'Generated file: <%= file.relative %>'
     })) // Output the file being created
     .pipe(bundleTimer) // Output time timing of the file creation
-    .pipe(gulpif(isDev, livereload()));
+    .pipe(livereload());
 }
 
 

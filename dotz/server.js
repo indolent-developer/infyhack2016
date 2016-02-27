@@ -1,6 +1,6 @@
 'use strict';
 
-var dbClient = require('./src/repo/dbClient');
+var dbClient = require('./src/backend/repo/dbClient');
 var cookieParser = require('cookie-parser');
 var express = require('express');
 var path = require('path');
