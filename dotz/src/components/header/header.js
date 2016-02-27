@@ -17,7 +17,7 @@
                   <Menu />
               </div>
               <div className="headertitle">
-                <span className="">DOTZz</span>
+                <span>DOTZz</span>
               </div>
             </div>
           </div>
